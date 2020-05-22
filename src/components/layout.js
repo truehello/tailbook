@@ -25,14 +25,21 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="my-0 mx-auto max-w-4xl py-6 px-4">
-        <main>{children}</main>
-        <footer>
+      
+     
+        <main className="my-0 mx-auto py-6 px-4">{children}</main>
+        
+      
+
+      <footer className="p-4 flex justify-end">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {` `}
+          <span className="text-xs"> and</span> 
+          {` `}
+          <a href="https://www.tailwindcss.com">Tailwind</a>
         </footer>
-      </div>
     </>
   )
 }

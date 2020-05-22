@@ -1,5 +1,13 @@
 @tailwind base;
 
+html{
+    @apply font-sans antialiased text-gray-900 bg-gray-100
+}
+
+p{
+    @apply text-gray-600 text-lg
+}
+
 @tailwind components;
 
 @tailwind utilities;
