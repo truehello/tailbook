@@ -41,7 +41,7 @@ const LeftNav = () => (
           <img src={saveIcon} className="h-12 w-12 p-2" alt="save Icon" />
         </div>
         <div className="ml-4">
-          <div className="text-lg leading-5 font-medium ">Experience</div>
+          <div className="text-lg leading-5 font-medium ">Projects</div>
         </div>
       </Link>
 
@@ -53,7 +53,7 @@ const LeftNav = () => (
           <img src={usersIcon} className="h-12 w-12 p-2" alt="plus Icon" />
         </div>
         <div className="ml-4">
-          <div className="text-lg leading-5 font-medium">CV</div>
+          <div className="text-lg leading-5 font-medium">Resume</div>
         </div>
       </Link>
     </>

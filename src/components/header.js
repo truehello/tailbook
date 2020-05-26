@@ -6,11 +6,11 @@ import fbIcon from "../images/facebook-circle.svg"
 import homeIcon from "../images/home.svg"
 import saveIcon from "../images/save.svg"
 import usersIcon from "../images/users.svg"
-import userIcon from "../images/user.svg"
+//import userIcon from "../images/user.svg"
 import fingerprintIcon from "../images/fingerprint.svg"
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-white shadow mb-6">
+  <header className="bg-white shadow mb-4">
     <div className="flex justify-between items-center px-4 lg:px-6">
       
         <Link to="/" className="flex items-center ">
@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => (
       </nav>
 
       <div className="flex items-center h-full">
-        <img src={userIcon} className=" h-8 w-8 border-2 rounded-full bg-gray-300" alt="User Icon" />
+        <img src="https://avatars0.githubusercontent.com/u/4323180?s=460&v=4" className=" h-8 w-8 border-2 rounded-full bg-gray-300" alt="User Icon" />
         <p className="font-bold ml-2">Adam</p>
       </div>
     </div>

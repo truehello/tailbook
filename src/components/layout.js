@@ -11,6 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 
+import plusIcon from "../images/plus.svg"
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,10 +29,18 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       
      
-        <main className="my-0 mx-auto py-6 px-4">{children}</main>
+        <main className="my-0 mx-auto px-4">{children}</main>
         
       
-
+      <div className="fixed bottom-0 right-0">
+        <button className="mb-8 mr-4 rounded-full bg-white shadow p-3">
+        <img
+              src={plusIcon}
+              className="h-6 w-6 rounded-full bg-gray-500"
+              alt="plus Icon"
+            />
+        </button>
+      </div>
       <footer className="p-4 flex justify-end">
           © {new Date().getFullYear()}, Built with
           {` `}
