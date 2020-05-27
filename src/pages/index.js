@@ -44,16 +44,21 @@ const IndexPage = () => (
         </section>
 
         <section className="flex flex-col bg-white shadow overflow-hidden sm:rounded-lg px-8 pt-4 pb-2 mb-8">
-
-        <div className="flex items-center py-2">
-        <img src={userIcon} className="h-8 w-8 border-2 rounded-full bg-gray-300 mr-2" alt="Users Icon" />
-        <div className="flex flex-col justify-around">
-          <p className="font-semibold tracking-tight leading-none text-gray-900">Marc Trudel</p>
-          <date className="text-sm text-gray-400 leading-none">Today, 5:13am</date>
-        </div>
-        </div>
-
-
+          <div className="flex items-center py-2">
+            <img
+              src={userIcon}
+              className="h-8 w-8 border-2 rounded-full bg-gray-300 mr-2"
+              alt="Users Icon"
+            />
+            <div className="flex flex-col justify-around">
+              <p className="font-semibold tracking-tight leading-none text-gray-900">
+                Marc Trudel
+              </p>
+              <date className="text-sm text-gray-400 leading-none">
+                Today, 5:13am
+              </date>
+            </div>
+          </div>
 
           <div className="pt-2">
             <h1 className="text-xl font-semibold leading-tight">
@@ -68,53 +73,69 @@ const IndexPage = () => (
           </div>
 
           <div className="card-footer flex flex-col border-gray-500 mt-4 pt-2">
-            
             <div className="flex justify-between items-center border-gray-300 border-t border-b py-1">
               <div className="flex items-center">
-              <img src={fbZanyIcon} className="h-10 w-10" alt="Like Icon" />
-              <img src={fbRollingEyesIcon} className="h-10 w-10 -ml-4" alt="Like Icon" />
-              <img src={fbLOLIcon} className="h-10 w-10 -ml-4 mr-2" alt="Like Icon" />
-               23
+                <img src={fbZanyIcon} className="h-10 w-10" alt="Like Icon" />
+                <img
+                  src={fbRollingEyesIcon}
+                  className="h-10 w-10 -ml-4"
+                  alt="Like Icon"
+                />
+                <img
+                  src={fbLOLIcon}
+                  className="h-10 w-10 -ml-4 mr-2"
+                  alt="Like Icon"
+                />
+                23
               </div>
               34 Comments 62 Likes
             </div>
 
             <div className="flex justify-between px-24 pt-1">
-            <button className="flex items-center text-gray-700  hover:font-gray:300 font-semibold">
-              <img src={likeIcon} className="h-8 w-8 p-2" alt="Like Icon" />
-              Like
-            </button>
-            <button className="flex items-center text-gray-700 hover:font-gray:300 font-semibold">
-              <img src={commentIcon} className="h-8 w-8 p-2" alt="Like Icon" />
-              Comment
-            </button>
-            <button className="flex items-center text-gray-700  hover:font-gray:300 font-semibold">
-              <img src={shareIcon} className="h-8 w-8 p-2" alt="Like Icon" />
-              Share
-            </button>
+              <button className="flex items-center text-gray-700  hover:font-gray:300 font-semibold">
+                <img src={likeIcon} className="h-8 w-8 p-2" alt="Like Icon" />
+                Like
+              </button>
+              <button className="flex items-center text-gray-700 hover:font-gray:300 font-semibold">
+                <img
+                  src={commentIcon}
+                  className="h-8 w-8 p-2"
+                  alt="Like Icon"
+                />
+                Comment
+              </button>
+              <button className="flex items-center text-gray-700  hover:font-gray:300 font-semibold">
+                <img src={shareIcon} className="h-8 w-8 p-2" alt="Like Icon" />
+                Share
+              </button>
             </div>
 
             <div className="flex items-center pt-1">
-            <img src={userIcon} className="h-8 w-8 border-2 rounded-full bg-gray-300 mr-2" alt="Users Icon" />
-            <input type="text" placeholder="Write a comment..."  class="w-full p-4 py-2 text outline-none focus:outline-none bg-gray-200 rounded-full" />
+              <img
+                src={userIcon}
+                className="h-8 w-8 border-2 rounded-full bg-gray-300 mr-2"
+                alt="Users Icon"
+              />
+              <input
+                type="text"
+                placeholder="Write a comment..."
+                class="w-full p-4 py-2 text outline-none focus:outline-none bg-gray-200 rounded-full"
+              />
             </div>
-
-
-
-
           </div>
         </section>
 
         <section className="bg-white shadow overflow-hidden sm:rounded-lg px-8 py-4 mb-8">
           <h2 className="text-xl font-semibold leading-tight">
-            I'm a big fan of TailwindCSS and want to be part of the team
-            extolling its virtues.
+            I'm a big fan of Tailwind and want to be part of the team extolling
+            its virtues and making it even easier for users to adopt through
+            TailwindUI.
           </h2>
 
-          <p>And I have the skillset to help do that.</p>
-          {/* <div className="max-w-xs mb-6">
-            <Image />
-          </div> */}
+          <p>
+            And I have the skillset to help do that. I've got front-end chops
+            and back end know-how to be able to add UX to the UI.
+          </p>
         </section>
 
         <section className="bg-white shadow overflow-hidden sm:rounded-lg px-8 py-4 mb-8">
@@ -125,7 +146,7 @@ const IndexPage = () => (
 
           <p>
             Not because I have any affinity towards Facebook but as an hommage
-            to Adam's videos.{" "}
+            to Adam's videos.
           </p>
         </section>
 
@@ -137,7 +158,7 @@ const IndexPage = () => (
 
           <p>
             Bringing design and code together is my happy place. And that seems
-            to be what Tailwind is all about.{" "}
+            to be what TailwindUI is all about.
           </p>
         </section>
 
@@ -147,7 +168,13 @@ const IndexPage = () => (
             developer.
           </h2>
 
-          <p>And I have been working remotely for the past 12 years.</p>
+          <p>
+            And I have been working remotely for the past 12 years on a small
+            team. That has given me the opportunity to roll up my sleeeves and
+            contribute to all areas of he operation when necessary. It has also
+            given me an overview that allows me to see opportunities for
+            developemnt, improvement and expansion.
+          </p>
         </section>
 
         <section className="bg-white shadow overflow-hidden text-center sm:rounded-lg px-8 py-4 mb-8">
@@ -158,6 +185,11 @@ const IndexPage = () => (
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
             Refresh News Feed
           </button>
+
+          <p className="px-10 mt-2 text-gray-700">
+            Actually, there is loads more about me and how I can contribute to TailwindUI. I look forward to an opprotunity to discuss more about it with you. 
+            Thanks, <a href="mailto:marctrudel@pm.me" className="underline hover:no-underline">Marc</a>
+          </p>
         </section>
       </div>
 

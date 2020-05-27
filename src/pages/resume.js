@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +7,7 @@ import LeftNav from "../components/leftNav"
 
 const ResumePage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Resume" />
     <div className="grid grid-cols-8 gap-8 lg:gap-24">
       <div className="col-span-2">
         <LeftNav />
@@ -134,8 +134,7 @@ const ResumePage = () => (
               <p className="text-base mb-4 text-gray-700"><span className="font-semibold">Language:</span> JavaScript, CSS, HTML, SQL, XML, JSON, GraphQL </p>
               <p className="text-base mb-4 text-gray-700"><span className="font-semibold">Database:</span>
               PostgreSQL, MS SQL Server, MySQL, MongoDB </p>
-              <p className="text-base mb-4 text-gray-700"><span className="font-semibold">JavaScript:</span> ES7, ES6,
-              ES5, React, Node, Express, Next, Apollo, Gatsby, Vue, jQuery </p>
+              <p className="text-base mb-4 text-gray-700"><span className="font-semibold">JS:</span> ES7, React, Node, Express, Next, Apollo, Gatsby, Vue, jQuery </p>
               <p className="text-base mb-4 text-gray-700"><span className="font-semibold">CSS:</span>
               LESS, SASS, Tailwind, Bootstrap, Material </p>
               <p className="text-base mb-4 text-gray-700"><span className="font-semibold">Test framework:</span> Jest,
@@ -153,7 +152,7 @@ const ResumePage = () => (
           </div>
         </section>
 
-        <Link to="/">Go back to the homepage</Link>
+     
       </div>
     </div>
   </Layout>

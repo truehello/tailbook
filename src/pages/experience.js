@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,7 +16,7 @@ import fbRollingEyesIcon from "../images/emoji-rolling-eyes.svg"
 
 const ExperiencePage = () => (
   <Layout>
-    <SEO title="Tailwind Projects - Marc Trudel" />
+    <SEO title="Projects" />
     <div className="grid grid-cols-8 gap-8 lg:gap-24">
       <div className="col-span-2">
         <LeftNav />
