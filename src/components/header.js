@@ -7,7 +7,7 @@ import homeIcon from "../images/home.svg"
 import saveIcon from "../images/save.svg"
 import usersIcon from "../images/users.svg"
 //import userIcon from "../images/user.svg"
-import fingerprintIcon from "../images/fingerprint.svg"
+//import fingerprintIcon from "../images/fingerprint.svg"
 
 const Header = ({ siteTitle }) => (
   <header className="bg-white shadow mb-4">
@@ -27,13 +27,13 @@ const Header = ({ siteTitle }) => (
         >
           <img src={homeIcon} className="h-8" alt="home Icon" />
         </Link>
-        <Link
+        {/* <Link
           to="/about"
           className="border-b-4 border-transparent hover:border-blue-500  rounded p-4 w-32 flex justify-center items-center"
           title="who"
         >
           <img src={fingerprintIcon} className="h-8" alt="Who Icon" />
-        </Link>
+        </Link> */}
         <Link
           to="/experience"
           className="border-b-4 border-transparent hover:border-blue-500 p-4 w-32 flex justify-center items-center"
